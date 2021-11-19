@@ -12,7 +12,7 @@ To launch the test page, open your browser at the following URL
 
     http://localhost:8080/v1/pets
 
-## Curl Commands to run the applications
+## Curl Commands to run the application
 
 ### GET all pets
 curl --location --request GET 'http://localhost:8080/v1/pets' \--data-raw ''
