@@ -1,8 +1,11 @@
 package com.example.petstore;
 
+import io.quarkus.security.IdentityAttribute;
 import org.eclipse.microprofile.openapi.annotations.media.Schema;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import javax.annotation.processing.Generated;
 
 @Schema(name = "Pet")
 public class Pet {
